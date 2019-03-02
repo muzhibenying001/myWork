@@ -1,0 +1,31 @@
+[01-Mar-2019 13:36:49 prc] PHP Parse error:  syntax error, unexpected '!', expecting '(' in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 4
+[01-Mar-2019 14:37:17 prc] PHP Parse error:  syntax error, unexpected ';' in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 4
+[01-Mar-2019 22:53:27 prc] PHP Notice:  Undefined variable: art in F:\Apache2.4\htdocs\works\2019.02.28\api\art.php on line 23
+[02-Mar-2019 00:08:10 prc] PHP Warning:  include(artedit.php): failed to open stream: No such file or directory in F:\Apache2.4\htdocs\works\2019.02.28\api\index.php on line 43
+[02-Mar-2019 00:08:10 prc] PHP Warning:  include(): Failed opening 'artedit.php' for inclusion (include_path='.;C:\php\pear') in F:\Apache2.4\htdocs\works\2019.02.28\api\index.php on line 43
+[02-Mar-2019 00:08:38 prc] PHP Notice:  Undefined variable: info in F:\Apache2.4\htdocs\works\2019.02.28\api\artedit.php on line 22
+[02-Mar-2019 00:48:25 prc] PHP Notice:  Undefined variable: art in F:\Apache2.4\htdocs\works\2019.02.28\api\art.php on line 26
+[02-Mar-2019 00:55:30 prc] PHP Notice:  Undefined variable: art in F:\Apache2.4\htdocs\works\2019.02.28\api\art.php on line 31
+[02-Mar-2019 00:57:40 prc] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in F:\Apache2.4\htdocs\works\2019.02.28\api\art.php on line 22
+[02-Mar-2019 01:03:02 prc] PHP Warning:  stripos() expects at least 2 parameters, 1 given in F:\Apache2.4\htdocs\works\2019.02.28\api\art.php on line 20
+[02-Mar-2019 01:05:50 prc] PHP Notice:  Undefined variable: art in F:\Apache2.4\htdocs\works\2019.02.28\api\art.php on line 32
+[02-Mar-2019 08:56:19 prc] PHP Notice:  Undefined variable: date in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 49
+[02-Mar-2019 08:56:19 prc] PHP Fatal error:  Uncaught Error: Function name must be a string in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php:49
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.02.28\api\index.php(31): include()
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 49
+[02-Mar-2019 08:56:20 prc] PHP Notice:  Undefined variable: date in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 49
+[02-Mar-2019 08:56:20 prc] PHP Fatal error:  Uncaught Error: Function name must be a string in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php:49
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.02.28\api\index.php(31): include()
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 49
+[02-Mar-2019 08:56:34 prc] PHP Notice:  Undefined variable: date in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 49
+[02-Mar-2019 08:56:34 prc] PHP Fatal error:  Uncaught Error: Function name must be a string in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php:49
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.02.28\api\index.php(31): include()
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.02.28\api\login.php on line 49
+[02-Mar-2019 13:02:59 prc] PHP Notice:  Array to string conversion in F:\Apache2.4\htdocs\works\2019.02.28\api\user.php on line 7
+[02-Mar-2019 13:02:59 prc] PHP Notice:  Array to string conversion in F:\Apache2.4\htdocs\works\2019.02.28\api\user.php on line 8
