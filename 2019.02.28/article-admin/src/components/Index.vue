@@ -86,7 +86,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.el-submenu .el-menu-item{
+    min-width: 0;
+}
 .height100{
     height: 100%;
 }
