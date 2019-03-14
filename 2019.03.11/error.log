@@ -1,0 +1,169 @@
+[11-Mar-2019 21:31:18 prc] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in F:\Apache2.4\htdocs\works\2019.03.11\index.php:7
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.11\index.php(7): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 7
+[11-Mar-2019 21:41:16 prc] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '{' or '$' in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 12
+[11-Mar-2019 21:47:19 prc] PHP Warning:  array_push() expects parameter 1 to be array, integer given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 23
+[11-Mar-2019 21:47:23 prc] PHP Warning:  array_push() expects parameter 1 to be array, integer given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 22
+[11-Mar-2019 21:47:23 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 23
+[11-Mar-2019 21:47:25 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 22
+[11-Mar-2019 21:47:25 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 23
+[11-Mar-2019 21:47:26 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 22
+[11-Mar-2019 21:47:26 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 23
+[11-Mar-2019 21:47:29 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 22
+[11-Mar-2019 21:47:29 prc] PHP Warning:  array_push() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 23
+[11-Mar-2019 21:50:10 prc] PHP Fatal error:  Uncaught Exception: Operation timed out after 10000 milliseconds with 0 bytes received in F:\Apache2.4\htdocs\works\2019.03.11\index.php:87
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.11\index.php(16): http_request('http://www.yixi...')
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 87
+[11-Mar-2019 22:00:26 prc] PHP Fatal error:  Uncaught Error: Cannot use string offset as an array in F:\Apache2.4\htdocs\works\2019.03.11\index.php:27
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 27
+[11-Mar-2019 22:01:24 prc] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in F:\Apache2.4\htdocs\works\2019.03.11\index.php:25
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 25
+[11-Mar-2019 22:07:24 prc] PHP Fatal error:  Uncaught Exception: Operation timed out after 10000 milliseconds with 0 bytes received in F:\Apache2.4\htdocs\works\2019.03.11\index.php:101
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.11\index.php(16): http_request('http://www.yixi...')
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 101
+[11-Mar-2019 23:07:13 prc] PHP Fatal error:  Uncaught Error: Class 'extend\Dao' not found in F:\Apache2.4\htdocs\works\2019.03.11\index.php:9
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 9
+[11-Mar-2019 23:07:28 prc] PHP Fatal error:  Uncaught Error: Class 'extend\Dao' not found in F:\Apache2.4\htdocs\works\2019.03.11\index.php:9
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 9
+[11-Mar-2019 23:07:29 prc] PHP Fatal error:  Uncaught Error: Class 'extend\Dao' not found in F:\Apache2.4\htdocs\works\2019.03.11\index.php:9
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 9
+[11-Mar-2019 23:07:41 prc] PHP Fatal error:  Uncaught Error: Class 'extend\Dao' not found in F:\Apache2.4\htdocs\works\2019.03.11\index.php:9
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 9
+[11-Mar-2019 23:07:45 prc] PHP Fatal error:  Uncaught Error: Class 'extend\Dao' not found in F:\Apache2.4\htdocs\works\2019.03.11\index.php:9
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 9
+[11-Mar-2019 23:58:26 prc] PHP Fatal error:  Uncaught Error: Class 'SphinxClient' not found in F:\Apache2.4\htdocs\works\2019.03.11\index.php:6
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 6
+[11-Mar-2019 23:58:45 prc] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; SphinxClient has a deprecated constructor in F:\Apache2.4\htdocs\works\2019.03.11\SphinxClient.php on line 378
+[11-Mar-2019 23:58:46 prc] PHP Notice:  Undefined variable: query in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 81
+[11-Mar-2019 23:58:46 prc] PHP Warning:  Invalid argument supplied for foreach() in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 81
+[11-Mar-2019 23:58:46 prc] PHP Notice:  Undefined variable: p in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 101
+[11-Mar-2019 23:58:46 prc] PHP Fatal error:  Uncaught Error: Call to a member function doJDPage() on null in F:\Apache2.4\htdocs\works\2019.03.11\index.php:101
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 101
+[12-Mar-2019 00:00:07 prc] PHP Notice:  Undefined variable: query in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 81
+[12-Mar-2019 00:00:07 prc] PHP Warning:  Invalid argument supplied for foreach() in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 81
+[12-Mar-2019 00:00:07 prc] PHP Notice:  Undefined variable: p in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 101
+[12-Mar-2019 00:00:07 prc] PHP Fatal error:  Uncaught Error: Call to a member function doJDPage() on null in F:\Apache2.4\htdocs\works\2019.03.11\index.php:101
+Stack trace:
+#0 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 101
+[12-Mar-2019 00:00:27 prc] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 13
+[12-Mar-2019 00:26:12 prc] PHP Warning:  array_keys() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 30
+[12-Mar-2019 00:26:12 prc] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 32
+[12-Mar-2019 00:26:12 prc] PHP Warning:  implode(): Invalid arguments passed in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 34
+[12-Mar-2019 00:26:47 prc] PHP Notice:  Undefined variable: str in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 21
+[12-Mar-2019 00:26:48 prc] PHP Warning:  array_keys() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 29
+[12-Mar-2019 00:26:48 prc] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 31
+[12-Mar-2019 00:26:48 prc] PHP Warning:  implode(): Invalid arguments passed in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 33
+[12-Mar-2019 00:26:54 prc] PHP Notice:  Undefined variable: str in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 21
+[12-Mar-2019 00:26:55 prc] PHP Warning:  array_keys() expects parameter 1 to be array, null given in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 29
+[12-Mar-2019 00:26:55 prc] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 31
+[12-Mar-2019 00:26:55 prc] PHP Warning:  implode(): Invalid arguments passed in F:\Apache2.4\htdocs\works\2019.03.11\search.php on line 33
+[12-Mar-2019 02:12:44 prc] PHP Notice:  Undefined variable: info in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 19
+[12-Mar-2019 02:17:05 prc] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 19
+[12-Mar-2019 02:18:14 prc] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 19
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:30 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 20
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:19:59 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:34 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:20:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:04 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:38 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[12-Mar-2019 02:25:51 prc] PHP Warning:  strstr(): Empty needle in F:\Apache2.4\htdocs\works\2019.03.11\ajax.php on line 21
+[14-Mar-2019 00:06:09 prc] PHP Fatal error:  Uncaught RedisException: 由于目标计算机积极拒绝，无法连接。
+ in F:\Apache2.4\htdocs\works\2019.03.11\index.php:7
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.11\index.php(7): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 7
+[14-Mar-2019 14:46:30 prc] PHP Fatal error:  Uncaught RedisException: 由于目标计算机积极拒绝，无法连接。
+ in F:\Apache2.4\htdocs\works\2019.03.11\index.php:7
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.11\index.php(7): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in F:\Apache2.4\htdocs\works\2019.03.11\index.php on line 7

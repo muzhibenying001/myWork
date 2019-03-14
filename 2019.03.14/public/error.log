@@ -1,0 +1,19 @@
+[13-Mar-2019 20:49:16 prc] PHP Warning:  require(F:\Apache2.4\htdocs\works\2019.03.14\public/../vendor/autoload.php): failed to open stream: No such file or directory in F:\Apache2.4\htdocs\works\2019.03.14\public\index.php on line 24
+[13-Mar-2019 20:49:16 prc] PHP Fatal error:  require(): Failed opening required 'F:\Apache2.4\htdocs\works\2019.03.14\public/../vendor/autoload.php' (include_path='.;C:\php\pear') in F:\Apache2.4\htdocs\works\2019.03.14\public\index.php on line 24
+[13-Mar-2019 14:49:50 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php on line 15
+[13-Mar-2019 14:50:33 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php:22
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', 'F:\\Apache2.4\\ht...', 22, Array)
+#1 [internal function]: App\Http\Controllers\LoginController->login(Object(Illuminate\Http\Request))
+#2 F:\Apache2.4\htdocs\works\2019.03.14\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
+#3 F:\Apache2.4\htdocs\works\2019.03.14\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('login', Array)
+#4 F:\Apache2.4\htdocs\works\2019.03.14\vendor\laravel\framework\src\Illuminate\Routing\Route.php(219): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LoginController), 'login')
+#5 F in F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php on line 22
+[13-Mar-2019 14:51:49 UTC] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php:24
+Stack trace:
+#0 F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php(24): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', 'F:\\Apache2.4\\ht...', 24, Array)
+#1 [internal function]: App\Http\Controllers\LoginController->login(Object(Illuminate\Http\Request))
+#2 F:\Apache2.4\htdocs\works\2019.03.14\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
+#3 F:\Apache2.4\htdocs\works\2019.03.14\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('login', Array)
+#4 F:\Apache2.4\htdocs\works\2019.03.14\vendor\laravel\framework\src\Illuminate\Routing\Route.php(219): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\LoginController), 'login')
+#5 F in F:\Apache2.4\htdocs\works\2019.03.14\app\Http\Controllers\LoginController.php on line 24

@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
+	<script type="text/javascript" src="./layui/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./layui/css/layui.css">
+	<script type="text/javascript" src="./layui/layui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="htmleaf-container" style="float: left;">
+	<div class="iphone">
+		<div class="iphone-top">
+			<span class="camera"></span>
+			<span class="sensor"></span>
+			<span class="speaker"></span>
+		</div>
+		<div class="iphone-screen" id="app">
+			<div class="screen-top">
+				<ul>
+					<li>
+						<img src="./img/111.png" style="width:36px;">中国移动 <span class="iconfont"> &#xe671;</span>
+					</li>
+					<li>下午14：39</li>
+					<li>
+						<span class="iconfont">&#xe650; </span> 95% 
+						<span class="iconfont" id="dianchi"> &#xe652; &nbsp;</span>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="iconfont" style="font-size: 25px;">&#xe605;</span>微信</li>
+					<li>落樱的公众号</li>
+					<li><span class="iconfont" style="font-size: 25px;">&#xe618;</span></li>
+				</ul>
+			</div>
+			<div class="screen-center">
+				<table width="100%" style="margin-top: 15px;" id="screen-center">
+				<tr>
+					<td align="left" height="80" class="tdleft">
+						<span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-left: 60px;">欢迎来到落樱的公众号！
+						</span>  					
+					</td>
+				</tr>
+				</table>	
+			</div>
+			<div class="screen-bottom">
+				<table border="1" width="100%" id="footerr">
+					<tr>
+						<td width="45"><span class="iconfont" style="font-size: 30px;">&#xe6b4;</span></td>
+						<td id="click001">添加菜单</td>
+ 						<td id="click002">
+							<i class="layui-icon">&#xe61f;</i>
+						</td>
+<!--						<td>
+							<span class="iconfont"style="font-size: 10px;">&#xeba1; &nbsp;</span>
+							关注我们
+						</td> -->
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="buttons">
+			<span class="on-off"></span>
+			<span class="sleep"></span>
+			<span class="up"></span>
+			<span class="down"></span>
+		</div>
+		<div class="bottom-bar"></div>
+		<div class="iphone-bottom"><span></span></div>
+	</div>
+</div>
+<div class="right-form">
+	<div>
+		<h4 class="left">菜单名称</h4>
+		<h4 class="right"><a href="#">删除菜单</a></h4>
+	</div>
+	<hr style="margin: 40px 0">
+	<form class="layui-form" action="">
+		<div class="layui-form-item">
+		    <label class="layui-form-label">菜单名称</label>
+		    <div class="layui-input-block">
+	      	<input type="text" name="title" required  lay-verify="required" placeholder="仅支持中英文和数字，字数不超过4个汉字或8个字母" autocomplete="off" class="layui-input">
+	    	</div>
+	    </div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">菜单内容</label>
+			<div class="layui-input-block">
+				<input type="radio" name="up_method" value="0" title="发送消息" checked>
+				<input type="radio" name="up_method" value="1" title="跳转网页">
+				<input type="radio" name="up_method" value="3" title="跳转小程序">
+			</div>
+		</div>
+
+		<div class="layui-card">
+		  <div class="layui-card-header" style="background: #F6F8F9">
+		<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+		  <ul class="layui-tab-title">
+		    <li class="layui-this"><i class="layui-icon">&#xe62a;</i> 图文</li>
+		    <li><i class="layui-icon">&#xe60d;</i>  图片</li>
+		    <li><i class="layui-icon">&#xe6fc;</i>  语音</li>
+		    <li><i class="layui-icon">&#xe6ed;</i>  视频</li>
+		  </ul>
+		  <div class="layui-tab-content">
+		  	
+		  </div>
+		</div> 
+		  	</div>
+		  <div class="layui-card-body">
+		  	<div class="layui-row" style="margin-top: 25px;">
+			    <div class="layui-col-xs12 layui-col-md4 ce">
+			      <div class="grid-demo grid-demo-bg1 big-log">
+				      	<i class="layui-icon">&#xe630;</i>
+						  <br>
+						  <span>从素材库中选择</span>	
+			      </div>
+			    </div>
+			    <div class="layui-col-xs12 layui-col-md4 ce">
+			      <div class="grid-demo  big-log">
+			      	<i class="layui-icon">&#xe634;</i>
+			      	<br>
+			      	<span>自建图文</span>
+			      </div>
+			    </div>
+			    <div class="layui-col-xs12 layui-col-md4 ce">
+			      <div class="grid-demo grid-demo-bg2  big-log">
+			      	<i class="layui-icon">&#xe641;</i>
+			      	<br>
+			      	<span>转载文章</span>
+			      </div>
+			    </div>
+			  </div>
+		  	
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-input-block">
+				<button class="layui-btn" lay-submit lay-filter="formDemo">保存并发布</button>
+				<button type="reset" class="layui-btn layui-btn-primary">预览</button>
+			</div>
+		</div>
+	</form>
+</div>
+</div>
+
+</body>
+<script type="text/javascript" src="./js/vue.js"></script>
+
+<script>
+
+//Demo
+layui.use('form', function(){
+  var form = layui.form;
+  
+  //监听提交
+  form.on('submit(formDemo)', function(data){
+    layer.msg(JSON.stringify(data.field));
+    return false;
+  });
+
+  layui.use('upload', function(){
+  var upload = layui.upload;
+   
+  //执行实例
+  var uploadInst = upload.render({
+    elem: '#test1', //绑定元素
+    url: '../WechatInitiative/upload.php', //上传接口
+    auto: true,
+    data: {
+      'up_method': function(){
+        return $(":radio:checked").val();
+      },
+      'up_type'  : function(){
+        return $(":checkbox:selected").val();
+      }
+    },
+    before: function(obj){ //obj参数包含的信息，跟 choose回调完全一致，可参见上文。
+      console.log(this.data);
+    },
+    done: function(res){
+      $('#lookup').css('background','#9384af');
+    },
+    error: function(){
+      //请求异常回调
+    }
+  });
+});
+
+  layui.use('element', function(){
+  	var element = layui.element;
+  
+  //…
+	});
+});
+</script>
+<script type="text/javascript">
+console.log($('#screen-center td'));
+$(function(){
+	/*获取click001的宽度*/
+	$('#click001').bind('click',function(){
+		/*判断是否有td_selected类*/
+		if( $(this).attr('class') == 'td_selected' ){
+			$(this).attr('class','');
+			/*增加屏幕中间提示*/
+			let screen_td = '<tr><td align="right" height="80" class="tdright"> <span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-right: 60px;">操作：取消操作 </span> </td><tr>';
+			if( $('#screen-center td').length >= 6 ){
+				$('#screen-center').find('td:first').fadeOut("fast").remove();		
+			}
+			$('#screen-center').append(screen_td);
+		}else{
+			let pattern = /添加菜单/;
+			let str = '添加菜单';
+			if( pattern.test($(this).html()) ) str = '修改菜单';
+
+			$(this).html(str);
+			/*增加屏幕中间提示*/
+			let screen_td = '<tr><td align="right" height="80" class="tdright"> <span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-right: 60px;">操作：'+str+' </span> </td><tr>';
+			if( $('#screen-center td').length >= 6 ){
+				$('#screen-center').find('td:first').remove();				
+			}
+			$('#screen-center').append(screen_td);
+			
+			$('#footerr td').attr('class','');
+			$(this).attr('class','td_selected');
+
+			/*获取选中格的宽度*/
+			let width = $(this).css('width');
+			let td_before = "<style>.td_selected::before{ content: '+'; font-size: 30px; display: block;  width: "+width+"; height: 55px; border: 1px solid #919191; background: #FAFAFA; position: absolute; top: -60px; }</style>";
+			$(this).append(td_before);
+		}
+	});
+
+
+	$('#click002').bind('click',function(){
+		/*判断是否有td_selected类*/
+		if( $(this).attr('class') == 'td_selected' ){
+			$(this).attr('class','');
+			/*增加屏幕中间提示*/
+			let screen_td = '<tr><td align="right" height="80" class="tdright"> <span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-right: 60px;">操作：取消操作 </span> </td><tr>';
+			if( $('#screen-center td').length >= 6 ){
+				$('#screen-center').find('td:first').fadeOut("fast").remove();		
+			}
+			$('#screen-center').append(screen_td);
+		}else{
+			let pattern = /添加菜单/;
+			let str = '添加菜单';
+			if( pattern.test($(this).html()) ) str = '修改菜单';
+
+			$(this).html(str);
+			/*增加屏幕中间提示*/
+			let screen_td = '<tr><td align="right" height="80" class="tdright"> <span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-right: 60px;">操作：'+str+' </span> </td><tr>';
+			if( $('#screen-center td').length >= 6 ){
+				$('#screen-center').find('td:first').remove();				
+			}
+			$('#screen-center').append(screen_td);
+			if(!$('#click003').html()){
+				let td = '<td id="click003"> <i class="layui-icon">&#xe61f;</i> </td>';
+				$(this).after(td);
+			}
+
+			$('#footerr td').attr('class','');
+			$(this).attr('class','td_selected');
+			/*获取选中格的宽度*/
+			let width = $(this).css('width');
+			let td_before = "<style>.td_selected::before{ content: '+'; font-size: 30px; display: block;  width: "+width+"; height: 55px; border: 1px solid #919191; background: #FAFAFA; position: absolute; top: -60px; }</style>";
+			$(this).append(td_before);
+		}
+	});
+
+	$('#click003').live('click',function(){
+		/*判断是否有td_selected类*/
+		if( $(this).attr('class') == 'td_selected' ){
+			$(this).attr('class','');
+			/*增加屏幕中间提示*/
+			let screen_td = '<tr><td align="right" height="80" class="tdright"> <span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-right: 60px;">操作：取消操作 </span> </td><tr>';
+			if( $('#screen-center td').length >= 6 ){
+				$('#screen-center').find('td:first').fadeOut("fast").remove();		
+			}
+			$('#screen-center').append(screen_td);
+		}else{
+			let pattern = /添加菜单/;
+			let str = '添加菜单';
+			if( pattern.test($(this).html()) ) str = '修改菜单';
+
+			$(this).html(str);
+			/*增加屏幕中间提示*/
+			let screen_td = '<tr><td align="right" height="80" class="tdright"> <span style="max-width: 60%;background: #C4DFB8;display: inline-block;border-radius: 5px;padding: 0 10px; color:#000;margin-right: 60px;">操作：'+str+' </span> </td><tr>';
+			if( $('#screen-center td').length >= 6 ){
+				$('#screen-center').find('td:first').remove();				
+			}
+			$('#screen-center').append(screen_td);
+			if(!$('#click003').html()){
+				let td = '<td id="click003"> <i class="layui-icon">&#xe61f;</i> </td>';
+				$(this).after(td);
+			}
+			$('#footerr td').attr('class','');
+			$(this).attr('class','td_selected');
+			/*获取选中格的宽度*/
+			let width = $(this).css('width');
+			let td_before = "<style>.td_selected::before{ content: '+'; font-size: 30px; display: block;  width: "+width+"; height: 55px; border: 1px solid #919191; background: #FAFAFA; position: absolute; top: -60px; }</style>";
+			$(this).append(td_before);
+		}
+	});
+});
+</script>
+<script>
+    var app = new Vue({
+        el:'#app',
+        data:{
+        	a:'111'
+        }
+    })
+</script>
+</html>

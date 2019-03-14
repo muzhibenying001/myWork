@@ -1,0 +1,20 @@
+./logs/接收【2019年03月04日 23:13:17】
+-------------------------------------------------------------------------
+<xml><ToUserName><![CDATA[gh_d6cacfa9bed0]]></ToUserName>
+<FromUserName><![CDATA[oQqY25wLV3MmIeRSwVcd34OMugFo]]></FromUserName>
+<CreateTime>1551712397</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[个个]]></Content>
+<MsgId>22215178023094976</MsgId>
+</xml>
+-------------------------------------------------------------------------
+./logs/发送【2019年03月04日 23:13:17】
+-------------------------------------------------------------------------
+<xml>
+<ToUserName><![CDATA[oQqY25wLV3MmIeRSwVcd34OMugFo]]></ToUserName>
+<FromUserName><![CDATA[gh_d6cacfa9bed0]]></FromUserName>
+<CreateTime>1551712397</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[服务器：个个]]></Content>
+</xml>
+-------------------------------------------------------------------------
