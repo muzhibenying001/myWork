@@ -67,7 +67,9 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    // 'timezone' => 'UTC',
+    # 修改时区
+    'timezone' => 'PRC',
 
     /*
     |--------------------------------------------------------------------------
@@ -175,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        # 验证码
+        Mews\Captcha\CaptchaServiceProvider::class,
+
     ],
 
     /*
@@ -223,6 +228,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        # 验证码
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
 
     ],
 
